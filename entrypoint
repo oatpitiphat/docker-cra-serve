@@ -1,0 +1,6 @@
+
+echo "===> Building ..."
+yarn build
+
+echo "===> Running ... "
+exec serve -s build
